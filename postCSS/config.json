@@ -1,0 +1,8 @@
+{
+    "use": ["autoprefixer"],
+    "input": "src/index.css",
+    "output": "dist",
+    "autoprefixer": {
+        "browsers": "> 5%"
+    }
+}
