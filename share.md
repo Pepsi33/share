@@ -276,7 +276,7 @@ Result {
     - decl： 指的是每条具体的css规则
     - rule：作用于某个选择器上的css规则集合
 
-    [可以去这里看看ast语法树结构-举个🌰]('https://astexplorer.net/#/2uBU1BLuJ1')
+    [可以去这里看看ast语法树结构-举个🌰](https://astexplorer.net/#/2uBU1BLuJ1)
     
     <b>一个ast节点基本有如下信息：</b>
      - nodes: css规则的节点信息集合
@@ -379,4 +379,3 @@ root.walkRules会遍历每一个CSS规则，可以通过rule.selector拿到每�
 - 最权威的初认识 https://github.com/postcss/postcss
 - AST等插件解析 http://rapheal.sinaapp.com/2014/05/15/uglifyjs-ast-parse/
 - 一个不错的东西 rework https://github.com/reworkcss
-- 
