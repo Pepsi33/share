@@ -306,7 +306,7 @@ Result {
     });
     ```
     <b>3.处理</b>
-    - 如同jquery给出了很多操作dom节点的方法一样，postCss给出了很多操作css规则的方法，每种类型的节点稍微不同 查看[官方API]('http://api.postcss.org/')
+    - 如同jquery给出了很多操作dom节点的方法一样，postCss给出了很多操作css规则的方法，每种类型的节点稍微不同 查看[官方API](http://api.postcss.org/)
 
     处理css
     - 搞清楚了postcss为我们提供的css ast结构和提供的操作函数后一切就好办了。无非是找到我们要处理的节点，对于要处理的内容做一些增减或者替换操作。
